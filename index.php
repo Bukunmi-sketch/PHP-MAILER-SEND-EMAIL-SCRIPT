@@ -30,6 +30,11 @@
                 	<input type="email" id="pass" name="email" placeholder="" required autocomplete="off">
                 	</div>
                 		 
+                     <div class="email-details">
+                         <label>subject</label>
+                         <input type="text" id="pass" name="email" placeholder="" required autocomplete="off">
+                     </div>
+
                 	<div class="textarea-details">
                 	<label>Your Message:</label>
                 	<textarea name="messagebody"></textarea>
