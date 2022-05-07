@@ -32,7 +32,7 @@
                 	        	 
                              <div class="email-details">
                                  <label>subject</label>
-                                 <input type="text" id="pass" name="email" placeholder="" required autocomplete="off">
+                                 <input type="text" id="pass" name="subject" placeholder="" required autocomplete="off">
                              </div>
         
                 	        <div class="textarea-details">
@@ -40,7 +40,7 @@
                 	            <textarea name="messagebody"></textarea>
                 	        </div>
                 		 
-                	        <input type="submit" class="submit" name="" value="Send Message">
+                	        <input type="submit" class="submit"  onclick="send()" name="" value="Send Message">
                 		 
                     	</form>  
                 		 
