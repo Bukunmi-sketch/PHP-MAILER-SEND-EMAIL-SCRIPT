@@ -22,25 +22,25 @@
                 				<div class="error"></div><br>
                 	        <div class="name-details">
                 	           <label>Your Full Name:</label>
-                	           <input type="text" name="fullname" placeholder="" pattern="[A-Z\sa-z]{3,25}" autofocus required>
+                	           <input type="text" name=name" fullname" placeholder="" pattern="[A-Z\sa-z]{3,25}"  id ="" autofocus required>
                 	        </div>
                 	        	 
                 	        <div class="email-details">
                 	             <label>Your E-mail Address:</label>
-                	             <input type="email" id="pass" name="email" placeholder="" required autocomplete="off">
+                	             <input type="email" id="email" name="email" placeholder="" required autocomplete="off">
                 	        </div>
                 	        	 
                              <div class="email-details">
                                  <label>subject</label>
-                                 <input type="text" id="pass" name="subject" placeholder="" required autocomplete="off">
+                                 <input type="text" id="subject" name="subject" placeholder="" required autocomplete="off">
                              </div>
         
                 	        <div class="textarea-details">
                 	            <label>Your Message:</label>
-                	            <textarea name="messagebody"></textarea>
+                	            <textarea name="messagebody" id="messagebody"></textarea>
                 	        </div>
                 		 
-                	        <input type="submit" class="submit"  onclick="send()" name="" value="Send Message">
+                	        <input type="submit" class="submit" name="" value="Send Message">
                 		 
                     	</form>  
                 		 
@@ -48,5 +48,6 @@
                 		 
                 		 
                 </div>
+				<script src="send.js"></script>
 	   </body>
 		 </html>
