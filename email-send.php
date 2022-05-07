@@ -7,7 +7,7 @@
 
  $mail= new PHPMailer();
 
- if($_SERVER['REQUESR_METHOD']=='POST'){
+ if($_SERVER['REQUEST_METHOD']=='POST'){
 
     $name=$_POST['fullname'];
     $email=$_POST['email'];
