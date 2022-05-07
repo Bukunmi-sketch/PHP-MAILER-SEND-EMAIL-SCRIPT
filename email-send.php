@@ -21,7 +21,7 @@
                $mail->Host = 'smtp.gmail.com';
                $mail->SMTPAuth= 'true';
                $mail->Username ='Ibukunola2021@gmail.com';
-               $mail->Password ='*********';
+               $mail->Password ='*******';
                $mail->port = 465;
                $mail->SMTPSecure = 'ssl';
            

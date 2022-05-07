@@ -22,17 +22,17 @@
                 				<div class="error"></div><br>
                 	        <div class="name-details">
                 	           <label>Your Full Name:</label>
-                	           <input type="text" name=name" fullname" placeholder="" pattern="[A-Z\sa-z]{3,25}"  id ="" autofocus required>
+                	           <input type="text" name="fullname" placeholder="" pattern="[A-Z\sa-z]{3,25}"  id ="" autofocus required autocomplete="on">
                 	        </div>
                 	        	 
                 	        <div class="email-details">
                 	             <label>Your E-mail Address:</label>
-                	             <input type="email" id="email" name="email" placeholder="" required autocomplete="off">
+                	             <input type="email" id="email" name="email" placeholder="" required autocomplete="on">
                 	        </div>
                 	        	 
                              <div class="email-details">
                                  <label>subject</label>
-                                 <input type="text" id="subject" name="subject" placeholder="" required autocomplete="off">
+                                 <input type="text" id="subject" name="subject" placeholder="" required autocomplete="on">
                              </div>
         
                 	        <div class="textarea-details">

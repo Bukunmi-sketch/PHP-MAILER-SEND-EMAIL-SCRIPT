@@ -47,7 +47,6 @@ forme.onsubmit=(e)=>{
                      else{
                      btn.innerHTML="sending message";
                      btn.style.color="white";
-                     btn.style.fontSize="1.2em";
                      }//DONE
                            
          }
